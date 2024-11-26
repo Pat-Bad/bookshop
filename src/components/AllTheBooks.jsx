@@ -7,8 +7,8 @@ const AllTheBooks = function(){
     return (
         books.map((book)=>{
             return (
-<Col xs={12} md={4} lg={3}>
-    <Card className="mb-2 align-items-center">
+<Col xs={12} md={4} lg={3} key={book.asin}>
+    <Card className="my-2 align-items-center">
       <Card.Img variant="top" src={book.img}/>
       <Card.Body>
         <Card.Title>{book.title}</Card.Title>

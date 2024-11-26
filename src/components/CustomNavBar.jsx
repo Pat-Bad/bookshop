@@ -5,7 +5,7 @@ const CustomNavBar = function () {
 		<Navbar
 			collapseOnSelect
 			expand="lg"
-			className="bg-secondary container-fluid "
+			className="bg-secondary container-fluid justify-content-start"
 			data-bs-theme="dark"
 		>
 			<Container>
