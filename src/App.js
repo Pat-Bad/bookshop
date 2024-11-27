@@ -15,7 +15,7 @@ function App() {
 				<CustomNavBar />
 			</header>
 			<main>
-				<MyAlert name="Stefano" />
+				<MyAlert />
 				<Container fluid>
 					<Row>
 						<BookList />
