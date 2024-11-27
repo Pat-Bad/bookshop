@@ -8,7 +8,7 @@ const BookList = () => {
     
       {books.map((book, asin) => (
         <Col xs={12} md={4} lg={3}>
-        <SingleBook key={asin} title={book.title} img={book.img} />
+        <SingleBook key={book.asin} title={book.title} img={book.img} />
         </Col>
       ))}
     
