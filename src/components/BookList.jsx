@@ -1,4 +1,4 @@
-import SingleBook from './SingleBook'; // Il componente che mostra la card
+import SingleBook from './SingleBook';
 import books from "../Assets/books/fantasy.json"
 import { Col } from 'react-bootstrap';
 
