@@ -2,6 +2,7 @@ import { Card, Button } from "react-bootstrap";
 
 const SingleBook = ({ title, img }) => {
 	return (
+        
 		<Card className="my-2 align-items-center w-75">
 			<Card.Img
 				variant="top"

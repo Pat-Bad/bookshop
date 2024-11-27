@@ -4,7 +4,7 @@ import MyFooter from "./components/MyFooter";
 import CustomNavBar from "./components/CustomNavBar";
 import MyAlert from "./components/MyAlert";
 
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import BookList from "./components/BookList";
 
@@ -17,9 +17,7 @@ function App() {
 			<main>
 				<MyAlert />
 				<Container fluid>
-					<Row>
-						<BookList />
-					</Row>
+					<BookList />
 				</Container>
 			</main>
 			<footer className="mt-auto">

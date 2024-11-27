@@ -1,15 +1,18 @@
 import SingleBook from './SingleBook';
 import books from "../Assets/books/fantasy.json"
-import { Col } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const BookList = () => {
   return (
-   
-    <Col xs={12} md={4} lg={3}>
+    <Row>
+    
       {books.map((book, asin) => (
+        <Col xs={12} md={4} lg={3}>
         <SingleBook key={asin} title={book.title} img={book.img} />
+        </Col>
       ))}
-    </Col>
+    
+    </Row>
   );
 };
 
